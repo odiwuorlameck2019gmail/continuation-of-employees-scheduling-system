@@ -1,0 +1,4 @@
+
+USE employees_records;
+ALTER TABLE Arrival_time
+MODIFY COLUMN arrival_date DATETIME DEFAULT CURRENT_TIMESTAMP;
